@@ -40,6 +40,7 @@ header {
 
 .nav-links {
     list-style: none;
+    margin-top: 1rem;
 }
 
 .nav-links li {
@@ -53,7 +54,7 @@ header {
     transition: all 0.3 ease 0s;
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -64,7 +65,7 @@ header {
 button {
     background-color: #fdc074;
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 500;
     border-radius: 50px;
     padding: 16px 40px;
@@ -290,8 +291,6 @@ button:hover {
     flex-direction: column;
     height: 30rem;
     width: 100%;
-
-
 }
 
 .down-arrow {
@@ -313,7 +312,7 @@ button:hover {
 
 .featured {
     background-color: #FFFFFF;
-    padding: 50px 300px;
+    /* padding: 50px 300px; */
     height: 2000px;
     display: flex;
     flex-direction: column;
@@ -347,7 +346,7 @@ button:hover {
     object-fit: contain;
     margin-right: 2rem;
 }
-.one-left {
+/* .one-left {
     display: flex;
     flex-direction: row;
     width: 50%;
@@ -366,7 +365,7 @@ button:hover {
     max-width: 500px;
     align-content: center;
     justify-content: center;
-}
+} */
 .case-header {
     font-size: 1.8rem;
     font-weight: 500;
@@ -377,7 +376,14 @@ button:hover {
     font-weight: 400;
     padding-bottom: 2.2rem;
 }
-
+.skills-container {
+    height: 24rem;
+    align-items: center;
+    color: #FFFFFF;
+}
+.skills-container h2 {
+    font-weight: 400;
+}
 footer {
     display: flex;
     flex-direction: row;
@@ -389,9 +395,28 @@ footer {
     margin-top: auto;
     text-align: center;
 }
+footer #nav-links li a:hover {
+    color: #011F26;
+}
+#nav-links {
+    list-style: none;
+    margin-top: 1rem;
+}
+#nav-links li {
+    display: inline-block;
+    padding: 0px 3rem;
+    
+}
+#nav-links li a {
+    transition: all 0.3 ease 0s;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 
 
-@media only screen and (max-width: 1600px){
+/* @media only screen and (max-width: 1600px){
     .featured {
         padding: 50px 50px;
     }
@@ -401,30 +426,13 @@ footer {
     header {
         padding: 1rem 1rem;
     }
-}
+} */
 @media only screen and (max-width: 1050px) {
     .nav-links {
         display: none;
     }
     header {
         padding: 1rem 3rem; 
-    }
-    .featured-one {
-        display: flex;
-        flex-direction: column;
-        margin-left: 15%;
-    }
-    .one-right {
-        margin-top: 2rem;
-        margin-left: 7rem;
-        width: 100%;
-        
-    }
-    .one-left {
-        margin-right: 0rem;
-        justify-content: center;
-        width: 100%;
-       
-    }
+
 }
 
