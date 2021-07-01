@@ -393,9 +393,15 @@ footer {
   justify-content: center;
   text-emphasis: center;
   background: #abeaff;
-  min-height: 280px;
+  min-height: 400px;
   margin-top: auto;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
   text-align: center;
+  overflow: hidden;
+}
+.footer-contact {
+  padding-bottom: 2rem;
 }
 footer #nav-links li a:hover {
   color: #011f26;
@@ -420,7 +426,6 @@ footer #nav-links li a:hover {
   font-size: 1.5rem;
   font-weight: 500;
 }
-
 /* @media only screen and (max-width: 1600px){
     .featured {
         padding: 50px 50px;
@@ -431,12 +436,12 @@ footer #nav-links li a:hover {
   header {
     padding: 1rem 1rem;
   }
-  .rda-mockup {
+  /* .rda-mockup {
   }
   .cer-mockup {
   }
   .tennant-mockup {
-  }
+  } */
 }
 @media only screen and (max-width: 1080px) {
 }
