@@ -465,8 +465,10 @@ footer #nav-links li a:hover {
     }
     .rda-mockup {
       /* width: 100%; */
-      height: 20rem;
+      height: 18rem;
       object-fit: contain;
+      padding: 0;
+      margin: 0;
     }
     .cer-mockup {
       /* width: 100%; */
