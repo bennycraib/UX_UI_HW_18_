@@ -432,6 +432,9 @@ footer #nav-links li a:hover {
   .tennant-mockup {
   }
 }
+@media only screen and (max-width: 1080px) {
+}
+
 @media only screen and (max-width: 1050px) {
   .nav-links {
     display: none;
