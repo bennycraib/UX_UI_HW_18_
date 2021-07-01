@@ -458,6 +458,14 @@ footer #nav-links li a:hover {
       cursor: pointer;
       /* margin-left: 3rem; */
     }
+    #avatar {
+      width: 200px;
+    }
+    #zio {
+      width: 250px;
+      font-size: 20px;
+      padding: 14px 2px;
+    }
     .hero-xs {
       padding: 0;
       margin: 0;
