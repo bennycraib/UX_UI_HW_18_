@@ -192,6 +192,7 @@ button:hover {
   font-weight: 300;
   display: inline-block;
   line-height: 2.1rem;
+  max-width: fit-content;
   /* margin: 0 auto; */
 }
 #download-button {
